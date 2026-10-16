@@ -22,15 +22,15 @@ The MVP uses the browser Canvas 2D API for pixel sampling, luminance, RGB estima
 
 ## RUN
 
-This repository is a static HTML/CSS/JavaScript site; there is no package installation step.
+This is a plain HTML, CSS and JavaScript project; no npm install is required.
 
-From the repository root, run:
+You can open `index.html` directly, or start a local static server from the repository root:
 
 ```bash
 python -m http.server 8000
 ```
 
-Then open [http://localhost:8000](http://localhost:8000). You can also open `index.html` directly for a quick local preview.
+Then open `http://localhost:8000`. If Python is unavailable, use any static-file server of your choice.
 
 ## PROJECT STATE
 
